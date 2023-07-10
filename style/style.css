@@ -4,13 +4,6 @@
   padding: 0;
   margin: 0;
 }
-html {
-  scroll-behavior: auto;
-}
-body {
-  padding-left: 15rem;
-  padding-right: 15rem;
-}
 h1 {
   color: #272727;
   font-family: Lato;
@@ -27,6 +20,7 @@ h2 {
   font-style: normal;
   font-weight: 800;
   line-height: normal;
+  margin-bottom: 1.5rem;
 }
 h3 {
   color: rgba(39, 39, 39, 0.8);
@@ -56,4 +50,102 @@ p {
   border-radius: 8px;
   background: #e55473;
   text-decoration: none;
+}
+
+/*Header Style Elements*/
+
+.hero-section {
+  background: rgba(229, 84, 115, 0.1);
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6.5rem;
+  padding: 0 15rem;
+}
+.hero-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+}
+.hero-image {
+  align-self: flex-end;
+}
+
+/*Featured Section Style Elements*/
+
+.featured-section {
+  margin-top: 12rem;
+  text-align: center;
+}
+.featured-items-container {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+.featured-item-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+}
+.featured-item-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+}
+.featured-item-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+}
+.item-img-1,
+.item-img-2,
+.item-img-3 {
+  border-radius: 300px 300px 0px 0px;
+  width: 458px;
+  height: 538px;
+  align-items: flex-end;
+  justify-content: center;
+  display: flex;
+}
+.item-img-1 {
+  background: rgba(167, 33, 98, 0.15);
+}
+.item-img-2 {
+  background: rgba(5, 151, 160, 0.15);
+}
+.item-img-3 {
+  background: rgba(71, 125, 17, 0.15);
+}
+.item-name {
+  text-decoration: underline;
+}
+
+/*USP Section Style Elements*/
+
+.usp-section {
+  margin: 8rem 15rem;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6.5em;
+  padding: 5rem;
+  text-align: center;
+}
+.usp-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+.usp-icon {
+  height: 5.5rem;
+  width: 5.5rem;
 }
