@@ -50,13 +50,17 @@ p {
   border-radius: 8px;
   background: #e55473;
   text-decoration: none;
+  border: none;
+}
+.pink-text-span {
+  color: #e55473;
 }
 
 /*Header Style Elements*/
 
 .hero-section {
   background: rgba(229, 84, 115, 0.1);
-  height: 90vh;
+  height: 100dvh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -76,7 +80,7 @@ p {
 /*Featured Section Style Elements*/
 
 .featured-section {
-  margin-top: 12rem;
+  margin-top: 8rem;
   text-align: center;
 }
 .featured-items-container {
@@ -103,12 +107,13 @@ p {
   justify-content: center;
   gap: 2rem;
 }
+/*Featured Items Common Style Elements*/
 .item-img-1,
 .item-img-2,
 .item-img-3 {
   border-radius: 300px 300px 0px 0px;
-  width: 458px;
-  height: 538px;
+  width: 28.625rem;
+  height: 33.625rem;
   align-items: flex-end;
   justify-content: center;
   display: flex;
@@ -136,7 +141,7 @@ p {
   align-items: center;
   justify-content: center;
   gap: 6.5em;
-  padding: 5rem;
+  padding: 5rem 0;
   text-align: center;
 }
 .usp-items {
@@ -148,4 +153,76 @@ p {
 .usp-icon {
   height: 5.5rem;
   width: 5.5rem;
+}
+
+/*Hot Deal Section Style Elements*/
+
+.hot-deal-section {
+  padding: 6.25rem 0;
+  margin: 8rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10rem;
+  background: rgba(229, 84, 115, 0.05);
+}
+.hot-deal-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hot-deal-text p {
+  margin-bottom: 2rem;
+}
+
+/*Instagram Section Style Elements*/
+
+.instagram-section {
+  margin: 8rem 15rem;
+  text-align: center;
+}
+
+.instagram-items-container {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.5em;
+}
+.instagram-items-container img {
+}
+
+/*Subscribe Section Style Elements*/
+
+.subscribe-section {
+  margin: 3rem auto;
+  border-radius: 8px;
+  background: url(../images/Subscribe-image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 1450px;
+  height: 449px;
+  flex-shrink: 0;
+}
+.subscribe-section p {
+  margin-bottom: 3rem;
+}
+.subscribe-form input {
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 600px;
+  padding: 22px 22px;
+  border-radius: 8px;
+  border: none;
+  margin-right: 10px;
 }
